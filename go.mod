@@ -1,10 +1,10 @@
 module github.com/paketo-buildpacks/nodejs
 
-go 1.24.1
+go 1.24.0
 
 require (
-	github.com/onsi/gomega v1.37.0
-	github.com/paketo-buildpacks/occam v0.25.0
+	github.com/onsi/gomega v1.36.3
+	github.com/paketo-buildpacks/occam v0.23.0
 	github.com/sclevine/spec v1.4.0
 )
 
@@ -45,7 +45,7 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
-	github.com/paketo-buildpacks/packit/v2 v2.17.0 // indirect
+	github.com/paketo-buildpacks/packit/v2 v2.16.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
@@ -53,7 +53,7 @@ require (
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
-	github.com/testcontainers/testcontainers-go v0.35.0 // indirect
+	github.com/testcontainers/testcontainers-go v0.34.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.15 // indirect
 	github.com/tklauser/numcpus v0.10.0 // indirect
 	github.com/ulikunitz/xz v0.5.12 // indirect

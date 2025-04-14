@@ -3,40 +3,53 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@5.4.2"
+  # renovate: depName=paketo-buildpacks/node-engine
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@5.4.1"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/node-start
   uri = "urn:cnb:registry:paketo-buildpacks/node-start@2.1.24"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/npm-install@1.8.9"
+  # renovate: depName=paketo-buildpacks/npm-install
+  uri = "urn:cnb:registry:paketo-buildpacks/npm-install@1.8.8"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/npm-start
   uri = "urn:cnb:registry:paketo-buildpacks/npm-start@2.1.12"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/yarn-install
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.1.18"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/yarn
   uri = "urn:cnb:registry:paketo-buildpacks/yarn@1.3.36"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/yarn-start
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-start@2.0.35"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/procfile
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.11.0"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/environment-variables
   uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.9.0"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/image-labels
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.9.0"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/ca-certificates
   uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.10.1"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/node-run-script
   uri = "urn:cnb:registry:paketo-buildpacks/node-run-script@2.0.12"
 
 [[dependencies]]
+  # renovate: depName=paketo-buildpacks/watchexec
   uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.5.0"

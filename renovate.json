@@ -1,0 +1,55 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [":gomod"],
+  "github-actions": {
+    "enabled": false
+  },
+  "npm": {
+    "enabled": false
+  },
+  "postUpdateOptions": [
+    "gomodUpdateImportPaths",
+    "gomodTidy"
+  ],
+  "env": {
+    "GOSUMDB": "sum.golang.org"
+  },
+  "packageRules": [
+    {
+      "groupName": "all non-major Go dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchPackageNames": [
+        "!github.com/anchore/stereoscope",
+        "!github.com/testcontainers/testcontainers-go",
+        "!github.com/docker/docker",
+        "!github.com/containerd/containerd"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": ["gomod"]
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^buildpack.toml$"
+      ],
+      "matchStrings": [
+        "# renovate: depName=(?<depName>.*?)\\s+id = \".*?\"\\s+version = \"(?<currentValue>\\d+?\\.\\d+?\\.\\d+?)\""
+      ],
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v?(?<version>.*)$"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^package.toml$"
+      ],
+      "matchStrings": [
+        "# renovate: depName=(?<depName>.*?)\\s+uri = \".*?(:|@)(?<currentValue>\\d+?\\.\\d+?\\.\\d+?)\""
+      ],
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v?(?<version>.*)$"
+    }
+  ]
+}
