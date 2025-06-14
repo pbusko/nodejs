@@ -34,7 +34,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/yarn
     id = "paketo-buildpacks/yarn"
-    version = "1.3.36"
+    version = "1.4.4"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/yarn-install
