@@ -29,7 +29,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-engine
     id = "paketo-buildpacks/node-engine"
-    version = "5.4.1"
+    version = "5.7.0"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/yarn
@@ -94,7 +94,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-engine
     id = "paketo-buildpacks/node-engine"
-    version = "5.4.1"
+    version = "5.7.0"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/npm-install
@@ -154,7 +154,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-engine
     id = "paketo-buildpacks/node-engine"
-    version = "5.4.1"
+    version = "5.7.0"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-start

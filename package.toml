@@ -4,7 +4,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/node-engine
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@5.4.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@5.7.0"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/node-start
