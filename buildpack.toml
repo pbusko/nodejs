@@ -99,7 +99,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/npm-install
     id = "paketo-buildpacks/npm-install"
-    version = "1.8.8"
+    version = "1.9.4"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-run-script

@@ -12,7 +12,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/npm-install
-  uri = "urn:cnb:registry:paketo-buildpacks/npm-install@1.8.8"
+  uri = "urn:cnb:registry:paketo-buildpacks/npm-install@1.9.4"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/npm-start
