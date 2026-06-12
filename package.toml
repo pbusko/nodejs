@@ -52,4 +52,4 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/watchexec
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.9.5"
