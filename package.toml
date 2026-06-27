@@ -48,7 +48,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/node-run-script
-  uri = "urn:cnb:registry:paketo-buildpacks/node-run-script@2.0.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-run-script@2.3.41"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/watchexec
