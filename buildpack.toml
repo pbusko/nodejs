@@ -39,7 +39,7 @@ api = "0.7"
   [[order.group]]
     # renovate: depName=paketo-buildpacks/yarn-install
     id = "paketo-buildpacks/yarn-install"
-    version = "2.1.18"
+    version = "2.7.18"
 
   [[order.group]]
     # renovate: depName=paketo-buildpacks/node-run-script
