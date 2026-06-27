@@ -16,7 +16,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/npm-start
-  uri = "urn:cnb:registry:paketo-buildpacks/npm-start@2.1.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/npm-start@2.4.24"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/yarn-install
