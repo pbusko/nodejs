@@ -8,7 +8,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/node-start
-  uri = "urn:cnb:registry:paketo-buildpacks/node-start@2.1.24"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-start@2.6.23"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/npm-install
