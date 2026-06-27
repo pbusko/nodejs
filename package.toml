@@ -28,7 +28,7 @@
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/yarn-start
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn-start@2.0.35"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn-start@2.5.24"
 
 [[dependencies]]
   # renovate: depName=paketo-buildpacks/procfile
